@@ -1,0 +1,20 @@
+[project]
+name = "pysearpc"
+version = "3.1.0"
+description = "Simple C rpc library (Python bindings)"
+readme = "README.md"
+license = { text = "GPL-3.0" }
+authors = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["pysearpc"]
